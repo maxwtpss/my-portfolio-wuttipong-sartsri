@@ -1,5 +1,5 @@
 export type Language = 'en' | 'th';
-
+export type Translation = typeof translations['en'];
 export const translations = {
   en: {
     nav: {
