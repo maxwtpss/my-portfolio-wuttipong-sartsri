@@ -1,19 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 👨‍💻 Wuttipong Sartsri - Personal Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my personal portfolio website! This project showcases my skills, experiences, and the projects I have worked on. It is designed with a modern, responsive user interface to provide the best experience across all devices.
 
-This contains everything you need to run your app locally.
-https://ai.studio/apps/ea66877c-fcc5-489a-90a3-537d6e16f167
+## 🚀 Live Demo
+*(The live website link will be placed here once deployed)*
 
-## Run Locally
+## ✨ Features
+- **Modern & Clean UI/UX:** Designed with a focus on aesthetics and usability.
+- **Fully Responsive:** Looks great on desktops, tablets, and mobile phones.
+- **Fast Performance:** Built with Vite for lightning-fast loading times.
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack
+- **Frontend Framework:** React 
+- **Build Tool:** Vite
+- **Language:** TypeScript
+- **Styling:** CSS / Modern Web UI
 
+## 💻 Getting Started (Local Development)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+To run this project locally on your machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/maxwtpss/my-portfolio-wuttipong-sartsri.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📫 Contact
+Feel free to reach out to me for any inquiries, collaborations, or just to say hi!
