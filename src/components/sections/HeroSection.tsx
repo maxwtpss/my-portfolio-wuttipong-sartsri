@@ -10,9 +10,9 @@ interface HeroSectionProps {
 export function HeroSection({ t }: HeroSectionProps) {
   return (
     <section className="relative min-h-screen flex items-center bg-zinc-950 text-white overflow-hidden pt-20">
-        <div className="absolute inset-0 z-0 pointer-events-none transform-gpu overflow-hidden">
-            <div className="absolute top-1/4 left-1/4 w-72 h-72 md:w-96 md:h-96 bg-[#B28753]/20 blur-3xl md:blur-[80px] rounded-full will-change-transform opacity-70"></div>
-            <div className="absolute bottom-1/4 right-1/8 w-72 h-72 md:w-96 md:h-96 bg-[#B28753]/10 blur-3xl md:blur-[80px] rounded-full will-change-transform opacity-70"></div>
+        <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
+            <div className="absolute top-1/4 left-1/4 w-72 h-72 md:w-96 md:h-96 bg-[#B28753]/20 blur-3xl md:blur-[80px] rounded-full opacity-70"></div>
+            <div className="absolute bottom-1/4 right-1/8 w-72 h-72 md:w-96 md:h-96 bg-[#B28753]/10 blur-3xl md:blur-[80px] rounded-full opacity-70"></div>
         </div>
         
         <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10 pt-16">
