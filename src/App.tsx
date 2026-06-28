@@ -355,7 +355,7 @@ function ExpertiseCard({ title, icon, items }: { title: string, icon: React.Reac
                 {icon}
             </div>
             <h3 className="text-xl md:text-2xl lg:text-3xl font-medium mb-6 md:mb-8 text-zinc-900">{title}</h3>
-            <ul className="space-y-3 md:space-y-5 mt-auto">
+            <ul className="space-y-3 md:space-y-5">
                 {items.map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3 md:gap-4 text-zinc-600">
                         <div className="w-1.5 h-1.5 rounded-full bg-[#B28753] mt-2 md:mt-2.5 shrink-0" />
